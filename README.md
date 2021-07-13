@@ -21,10 +21,14 @@ An attempt to make a very simple, Personal Assistant that understands speech as 
 	```
 	sudo apt update && sudo apt install espeak ffmpeg libespeak1
 	```
-## Features : 
-- ✨Fully **OFFLINE** text to speech conversion
-- 🎈 Choose among different voices installed in your system
-- 🎛 Control speed/rate of speech
-- 🎚 Tweak Volume
-- 📀 Save the speech audio as a file
-- ❤️ Simple, powerful, & intuitive API
+## Modules required to make this project work : 
+* pyttsx3
+* speech_recognition as sr
+* datetime
+* wikipedia
+* webbrowser
+* os
+* smtplib
+* pyaudio
+* re
+* pyowm
